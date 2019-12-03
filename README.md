@@ -31,6 +31,16 @@ GQT depends on htslib, sqlite3, and lex (flex).
 
 *Step 1*. Install htslib.
 ```
+NEW:
+wget https://github.com/samtools/htslib/releases/download/1.9/htslib-1.9.tar.bz2
+bunzip2 htslib-1.9.tar.bz2
+tar xf htslib-1.9.tar
+ln -s htslib-1.9 htslib
+cd htslib
+./configure
+make
+
+OLD:
 git clone https://github.com/samtools/htslib.git
 cd htslib
 ./configure --disable-bz2 --disable-lzma --enable-libcurl

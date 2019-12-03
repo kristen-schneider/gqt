@@ -1,0 +1,28 @@
+PLINK v1.90b6.12 64-bit (28 Oct 2019)
+Options in effect:
+  --allow-extra-chr
+  --bcf ../data/10.1e4.var.bcf
+  --make-bed
+  --out ../data/10.1e4.var.bcf.plink
+
+Hostname: Kristens-MacBook-Pro.local
+Working directory: /Users/kristen/gqt/test/func
+Start time: Mon Nov 25 11:57:15 2019
+
+Random number seed: 1574708235
+16384 MB RAM detected; reserving 8192 MB for main workspace.
+--bcf: ../data/10.1e4.var.bcf.plink-temporary.bed +
+../data/10.1e4.var.bcf.plink-temporary.bim +
+../data/10.1e4.var.bcf.plink-temporary.fam written.
+43 variants loaded from .bim file.
+10 people (0 males, 0 females, 10 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ../data/10.1e4.var.bcf.plink.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 10 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+43 variants and 10 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to ../data/10.1e4.var.bcf.plink.bed +
+../data/10.1e4.var.bcf.plink.bim + ../data/10.1e4.var.bcf.plink.fam ... done.
+
+End time: Mon Nov 25 11:57:15 2019
